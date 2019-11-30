@@ -1,0 +1,287 @@
+/*layout section*/
+
+
+body {
+	background-color:white ;
+	margin:  0px;   
+	font-family: Verdana, Geogria, serif;
+	font-size: 14px;
+}
+
+#header {
+	background-color:#ccebff ;
+	margin: 20px; 
+	font-size: 30px;
+	border-radius: 5px;
+	font-color:#000033;
+	
+}
+.logo{
+	max-width: 100px;
+	max-height: 100px;
+	border-radius: 200px;
+}
+
+img{
+	max-height: 200%;
+	max-width: 200%;
+	
+
+
+}
+
+.marquee{
+	margin-bottom: 20px;
+}
+
+
+#navbar ul {
+	padding: 15px;
+	list-style-type: none;
+	background-color: #668cff ;
+	margin: 10px; 
+	border-radius: 5px; 
+	text-align: center;
+}
+
+#navbar ul li {
+	
+	display: inline-block   ;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	padding-right: 10PX;
+	padding-left: 10PX;
+	color: #fff;
+	background-color: #668cff; 
+	margin:20px;
+}
+
+#navbar ul li a:hover {
+	
+	color: #668cff;
+	background-color: #fff; 
+}
+
+
+
+
+.main {
+	background-color:#e6faff;
+	margin-left: 10px;
+	margin-right: 320px;
+    margin top: 10px;
+    margin-bottom: 10px; 
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 110%; 
+}
+
+.main2 {
+	background-color:#9999ff;
+	margin-left: 10px;
+	margin-right: 320px;
+    margin top: 10px;
+    margin-bottom: 10px; 
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 110%; 
+}
+
+.main3 {
+	background-color:#b3c6ff;
+	margin-left: 10px;
+	margin-right: 10px;
+    margin top: 10px;
+    margin-bottom: 10px; 
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 110%; 
+}
+.main4 {
+	background-color:#b3d1ff;
+	margin-left: 10px;
+	margin-right: 10px;
+    margin top: 10px;
+    margin-bottom: 10px; 
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 110%; 
+}
+
+.main5 {
+	background-color:#ecf2f9;
+	margin-left: 10px;
+	margin-right: 10px;
+    margin top: 10px;
+    margin-bottom: 10px; 
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 110%; 
+}
+
+.sideright {
+	background-color:#b3c6ff;
+	margin left: : 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px; 
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 105%; 
+	float:right; ;
+	width: 260px;
+	clear: right;
+	
+}
+
+.sideright2 {
+	background-color:#00264d;
+	margin left: : 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 105%; 
+	float:right; ;
+	width: 260px;
+	clear: right;
+	
+}
+
+
+
+ul.a{
+	list-style-type: square;
+}
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+tr{
+	background-color: #ddccff;
+}
+.tr1{
+	background-color: #ffe6ff;
+}
+.tr2{
+	background-color: #f2e6ff;
+}
+
+
+input[type=text], select {
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #004d99;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+
+#footer  { 
+	height: 60px;
+	
+	border-radius: 5px;
+	color: #000000;
+	text-align: center;
+	padding: 15px;
+	font-size: 90%;
+	background-color: #668cff ;
+}
+
+
+
+#footer ul { 
+	padding: 5px;
+	list-style-type: none;
+	background-color: #668cff ;
+	margin: 10px; 
+	border-radius: 5px; 
+	text-align: center;
+}
+
+#footer ul li {
+	
+	display: inline-block   ;
+}
+
+
+#footer ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #fff;
+	background-color: #668cff; 
+}
+
+#footer ul li a:hover {
+	
+	color: #668cff;
+	background-color: #fff; 
+}  
+
+
+
+
+/*heading secion*/
+
+h1 {
+	font-size: 120%;
+	color:#000000;
+}
+
+h2 {
+	font-size: 120%;
+	color:darkblue;
+}
+
+h3{
+	font-size: 250%;
+	color: #001a66;
+	text-align: center;
+	font-family: Arial;
+	margin: 0px;
+
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+}
+
+ 
